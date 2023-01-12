@@ -151,18 +151,18 @@ CACHES = {
 
 PRICE_CACHE_NAME = 'price_cache'
 
-LOGGING = {
-    'version':1,
+# LOGGING = {
+#     'version':1,
 
-    'handlers': {
-        'console': {'class': 'logging.StreamHandler'}
-    },
-    'loggers': {
-        'django.db.backends': {
-            'handlers': ['console'],
-            'level': 'DEBUG'
-        }
-    }
-}
+#     'handlers': {
+#         'console': {'class': 'logging.StreamHandler'}
+#     },
+#     'loggers': {
+#         'django.db.backends': {
+#             'handlers': ['console'],
+#             'level': 'DEBUG'
+#         }
+#     }
+# }
 
 CELERY_BROKER_URL = 'redis://redis:6379/0'
