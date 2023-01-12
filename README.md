@@ -1,16 +1,14 @@
 # django_optimization_databse
 В данном проекту рассмотрены варианты оптимизации с помощью асинхронных задач, кеширования, джойнов
 
-
 Раскомментируйте переменную LOGGING в файле settings.py для просмотра SQL запросов
 
 
-Запуск
+# Запуск
 
 Для запуска проекта у вас должен быть установлен Docker Desktop https://docs.docker.com/get-docker/
 
-
-Команды для запуска
+# Команды для запуска
 
 docker-compose build
 docker-compose up
